@@ -1,5 +1,7 @@
 # MXene-Material-Property-Prediction-via-Transfer-Learning-with-Graph-Neural-Networks
 GitHub repository corresponding to the paper: MXene Material Property Prediction via Transfer Learning with Graph Neural Networks
+
+
 Steps for using ALIGNNTL such that I specify a source dataset that is similar to (probably has to have same target property) as a specified MXene property I want to predict:
 	1. If not super large dataset, copy POSCAR/CIF/etc. files into a directory for the source dataset here:
 		/path/ALIGNNTL/SOURCE_DIRECTORY
