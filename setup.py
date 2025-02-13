@@ -11,9 +11,6 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setuptools.setup(
     name="alignn",
     version="2021.11.16",
-    author="Kamal Choudhary, Brian DeCost",
-    author_email="kamal.choudhary@nist.gov",
-    description="alignn",
     install_requires=[
         "numpy>=1.19.5",
         "scipy>=1.6.1",
