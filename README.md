@@ -40,7 +40,8 @@ Steps for using ALIGNNTL such that I specify a source dataset that is similar to
  16. Make the number of epochs small just to make sure that this runs properly
 	
  17. Edit the train.py file here to add the pretrained model that we just trained to the list of pretrained models. This file can be found here: /path/ALIGNNTL/FineTuning/alignn/train.py   . Code look something like this (if DIRECTORY_NAME is "2024-07-20"):
-	BEFORE:
+	
+ BEFORE:
 	all_models = {
 	    "mp_e_form_alignnn": [
 	        "https://figshare.com/ndownloader/files/31458811",
