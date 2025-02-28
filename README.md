@@ -24,16 +24,23 @@ pip install scipy==1.6.1
 pip install dgl-cu101==0.6.1
 	sci-py
 pip install dgl==0.6.1
+
 pip install matplotlib=3.4.2
+
 pip install tqdm==4.60.0
+
 pip install pyparsing==2.2.1
+
 pip install jarvis-tools==2021.07.19
 	matplotlib
 	tqdm
 	pyparsing
 pip install pytorch-ignite==0.4.7
+
 pip install pydantic==1.8.1
+
 pip install pycodestyle==2.7.0
+
 pip install flake8==3.9.1
 	pycodestyle
 pip install pydocstyle==6.0.0
@@ -41,21 +48,22 @@ pip install pydocstyle==6.0.0
 
 conda install pandas=1.2.3
 	num-py
+
 conda install matplotlib=3.4.2
+
 conda install scikit-learn=0.23
 
 
 
 
 conda install pandas=1.2.3
+
 conda install matplotlib=3.4.2
+
 conda install scikit-learn=0.23
 
 pip install --force-reinstall charset-normalizer==2.0.4
 
-
-In setup.py, changed scripts to have FineTuning/ prepended:
-scripts=['FineTuning/alignn/pretrained.py','FineTuning/alignn/train_folder.py']
 
 
 Ran this in ALIGNNTL:
@@ -66,15 +74,11 @@ Ran this in ALIGNNTL/FineTuning:
 python -m pip install -e .
 	Note: I copied the original setup.py file from .. into FineTuning
 
-pip install scikit-image
-![image](https://github.com/user-attachments/assets/3df68f4b-4b9b-475e-8a96-50611f1e2516)
 
 
 
 
 
-
-![image](https://github.com/user-attachments/assets/d18ca832-4d50-4b74-8a32-54fe1496ddd5)
 
 
 
