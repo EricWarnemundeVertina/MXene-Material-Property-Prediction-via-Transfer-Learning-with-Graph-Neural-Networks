@@ -10,14 +10,17 @@ source activate env_name
 
 Might need to install (the appropriate versions to get matching CUDA versions):
 conda install dgl=2.1.0 pytorch torchvision torchaudio pytorch-cuda -c pytorch -c nvidia
+
 conda install dgl=0.6.0 pytorch=1.7.1 torchvision=0.10.1 torchaudio=0.10.0 pytorch-cuda=10.1 -c pytorch -c nvidia
 	(Check which versions to install and put them after each = sign, respectively)
 
 Packages installed:
 pip install numpy==1.19.5
+
 pip install torch==1.8.0
 	num-py
 pip install scipy==1.6.1
+
 pip install dgl-cu101==0.6.1
 	sci-py
 pip install dgl==0.6.1
